@@ -16,22 +16,24 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I explore"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "Artificial Intelligence"
+          - "Multi-Agent Systems"
+          - "Robotics and Autonomous Systems"
+          - "World Model"
+          - "Embodied AI"
+          - "Software and Open Source"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
+        - text: View My Projects
           url: "#projects"
           icon: arrow-down
-        - text: Get In Touch
-          url: "#contact"
-          icon: envelope
+        - text: Read My Blog
+          url: "/blog/"
+          icon: document-text
     design:
       style: centered
       avatar_shape: circle
@@ -190,9 +192,9 @@ sections:
   - block: collection
     id: blog
     content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
+      title: "Latest Posts"
+      subtitle: "Research notes, technical tutorials, and personal reflections"
+      text: ""
       filters:
         folders:
           - blog
