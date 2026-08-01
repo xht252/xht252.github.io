@@ -1,12 +1,12 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: ''
-date: 2026-01-05
+summary: 'Personal homepage of Haotian Xue — graduate student, developer, and researcher interested in artificial intelligence, multi-agent systems, robotics, world models, and open-source software.'
+date: 2026-08-01
 type: landing
 
 sections:
-  # Developer Hero - Gradient background with name, role, social, and CTAs
+  # Hero
   - block: dev-hero
     id: hero
     content:
@@ -19,11 +19,11 @@ sections:
         prefix: "I explore"
         strings:
           - "Artificial Intelligence"
-          - "Multi-Agent Systems"
+          - "Multi-Agent Reinforcement Learning"
           - "Robotics and Autonomous Systems"
-          - "World Model"
+          - "World Models"
           - "Embodied AI"
-          - "Software and Open Source"
+          - "Open-Source Software"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -44,13 +44,13 @@ sections:
           dark: "#0a0a0f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
-  
-  # Filterable Portfolio - Alpine.js powered project filtering
+
+  # Featured Projects
   - block: portfolio
     id: projects
     content:
       title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      subtitle: "Selected research, engineering, and open-source work"
       count: 0
       filters:
         folders:
@@ -58,18 +58,19 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Artificial Intelligence
+          tag: AI
+        - name: Systems
+          tag: Systems
+        - name: Web
+          tag: Web
+        - name: Java
+          tag: Java
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
+      archive:
+        enable: true
+        text: "Browse All Projects"
+        link: "/projects/"
     design:
       columns: 3
       background:
@@ -78,54 +79,48 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Visual Tech Stack - Icons organized by category
+
+  # Tech Stack
   - block: tech-stack
     id: skills
     content:
       title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      subtitle: "Tools I use for research, development, and experimentation"
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: C/C++
+              icon: devicon/cplusplus
+            - name: Java
+              icon: devicon/java
+            - name: Markdown
+              icon: devicon/markdown
+        - name: AI & Robotics
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: PyTorch
+              icon: devicon/pytorch
+            - name: ROS
+              icon: devicon/ros
+            - name: Jupyter
+              icon: devicon/jupyter
+        - name: Development
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
+            - name: Git
+              icon: devicon/git
+            - name: GitHub
               icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Linux
+              icon: devicon/linux
+        - name: Web
+          items:
+            - name: Flask
+              icon: devicon/flask
+            - name: Vue.js
+              icon: devicon/vuejs
+            - name: JavaScript
+              icon: devicon/javascript
     design:
       style: grid
       show_levels: false
@@ -135,50 +130,35 @@ sections:
           dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Experience Timeline
+
+  # Education and Research Focus
   - block: resume-experience
     id: experience
     content:
-      title: Experience
-      date_format: Jan 2006
+      title: "Education & Research"
+      date_format: "Jan 2006"
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
+        - title: "Graduate Student in Software Engineering"
+          company: "Sichuan University"
+          company_url: "https://www.scu.edu.cn/"
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
+          location: "Chengdu, China"
+          date_start: "2025-09-01"
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
+            * Research interests include multi-agent reinforcement learning, autonomous systems, world models, embodied AI, and robotics
+            * Develop learning-based methods for intelligent decision-making and coordination
+            * Maintain research code, experiments, technical notes, and open-source projects
+        - title: "B.Eng. in Computer Science and Technology"
+          company: "Civil Aviation University of China"
+          company_url: "https://www.cauc.edu.cn/"
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: "Tianjin, China"
+          date_start: "2021-09-01"
+          date_end: "2025-06-30"
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Studied computer science, software engineering, computer networks, and intelligent systems
+            * Completed projects involving C/C++, Java, web development, network programming, and system simulation
     design:
       columns: '1'
       background:
@@ -187,13 +167,40 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
+  # Selected Publications
+  - block: collection
+    id: publications
+    content:
+      title: "Selected Publications"
+      subtitle: "Research papers, preprints, and technical reports"
+      text: ""
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+      count: 4
+      order: desc
+      archive:
+        enable: true
+        text: "View All Publications"
+        link: "/publications/"
+    design:
+      view: card
+      columns: 2
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
   # Recent Blog Posts
   - block: collection
     id: blog
     content:
       title: "Latest Posts"
-      subtitle: "Research notes, technical tutorials, and personal reflections"
+      subtitle: "Research notes, technical tutorials, project records, and personal reflections"
       text: ""
       filters:
         folders:
@@ -201,57 +208,61 @@ sections:
         exclude_featured: false
       count: 3
       order: desc
+      archive:
+        enable: true
+        text: "Read All Posts"
+        link: "/blog/"
     design:
       view: card
       columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-  
-  # Contact Section
-  - block: contact-info
-    id: contact
-    content:
-      title: Get In Touch
-      subtitle: "Let's build something amazing together"
-      text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
-      autolink: true
-    design:
-      columns: '1'
       background:
         color:
           light: "#ffffff"
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # CTA Card
-  - block: cta-card
+
+  # Contact
+  - block: contact-info
+    id: contact
     content:
-      title: "Open to Opportunities"
+      title: "Get In Touch"
+      subtitle: "Research collaboration, open-source development, and technical discussions"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
-        Let's connect and discuss how I can help your team.
-      button:
-        text: 'Download Resume'
-        url: uploads/resume.pdf
-        new_tab: true
+        I am interested in discussing artificial intelligence, multi-agent systems,
+        autonomous systems, robotics, world models, and open-source projects.
+
+        Feel free to contact me by email or through GitHub.
+      email: xuehaotian@stu.scu.edu.cn
+      autolink: true
     design:
-      card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
-        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
-        text_color: dark
+      columns: '1'
       background:
         color:
           light: "#f5f5f5"
           dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
+  # Final Call to Action
+  - block: cta-card
+    content:
+      title: "Explore My Notes and Projects"
+      text: |-
+        I use this website to organize research ideas, technical tutorials,
+        development records, and reflections from my learning journey.
+      button:
+        text: "Visit the Blog"
+        url: "/blog/"
+        new_tab: false
+    design:
+      card:
+        css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
+        text_color: dark
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "6rem", "0"]
 ---
