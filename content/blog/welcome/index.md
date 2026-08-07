@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Blog: AI Research, Multi-Agent Systems, and Open-Source Notes"
+title: "Welcome to My AI Research Blog: Multi-Agent Systems, Robotics and World Models"
 date: 2026-08-02
 summary: "An introduction to my personal blog, where I share research notes, technical tutorials, project records, and reflections on artificial intelligence, multi-agent systems, robotics, and open-source development."
 tags:
