@@ -21,7 +21,12 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Full-Stack Developer"
     # Site meta description for search engines and social sharing
-    description: "Modern developer portfolio showcasing web development projects, technical blog posts, and open source contributions. Built with Hugo Blox."
+    # description: "Modern developer portfolio showcasing web development projects, technical blog posts, and open source contributions. Built with Hugo Blox."
+    description: >
+      Haotian Xue is a graduate student researching artificial intelligence,
+      multi-agent reinforcement learning, robotics, world models,
+      autonomous systems, and open-source software.
+    
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)

@@ -1,7 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-summary: 'Personal homepage of Haotian Xue — graduate student, developer, and researcher interested in artificial intelligence, multi-agent systems, robotics, world models, and open-source software.'
+summary: >
+  Haotian Xue's personal homepage featuring research notes,
+  open-source projects, and technical blogs on artificial intelligence,
+  multi-agent reinforcement learning, robotics, world models,
+  and autonomous systems.
 date: 2026-08-01
 type: landing
 
