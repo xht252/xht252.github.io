@@ -1,6 +1,8 @@
 ---
 title: "DreamerV3 精读：在世界模型中想象未来，再学习策略"
 date: 2026-08-07
+math: true
+diagram: true
 summary: "快速读懂 DreamerV3：RSSM 如何学习潜空间世界模型，Actor-Critic 如何在 imagined trajectories 中训练，以及 symlog、two-hot、KL balancing、free bits 与 return normalization 为什么让一套超参数可以跨 150+ 任务工作。"
 categories:
   - World Models

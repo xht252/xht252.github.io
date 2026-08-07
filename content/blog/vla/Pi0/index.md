@@ -1,6 +1,8 @@
 ---
 title: '$\pi_0$ 精读：从 Action Token 到 Flow Matching，VLA 开始学习灵巧控制'
 date: 2026-08-07
+math: true
+diagram: true
 summary: '快速读懂 $\pi_0$：它如何在 RT-2 与 OpenVLA 建立的 VLA 范式上，引入 PaliGemma、Action Expert、Flow Matching、Action Chunking 与跨机器人预训练，把视觉语言知识进一步连接到连续、高频、灵巧的机器人控制。'
 tags:
   - Robotics

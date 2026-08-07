@@ -1,6 +1,8 @@
 ---
 title: "OpenVLA 精读：把 RT-2 的 VLA 范式真正开源"
 date: 2026-08-07
+math: true
+diagram: true
 summary: '快速读懂 OpenVLA：它如何沿用 RT-2 的 Action Token 思路，用 DINOv2 + SigLIP + Llama 2 7B 和 Open X-Embodiment 的 970k 机器人轨迹构建开源 VLA，并把研究重点推进到跨机器人泛化、下游微调、LoRA 和量化部署，为后续 $\pi_0$ 的连续动作与高频控制路线铺路。'
 tags:
   - Robotics

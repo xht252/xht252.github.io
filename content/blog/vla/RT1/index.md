@@ -1,6 +1,8 @@
 ---
 title: "RT-1 精读：Transformer 如何学会控制真实机器人"
 date: 2026-08-07
+math: true
+diagram: true
 summary: "用一篇短文快速读懂 RT-1：大规模真实机器人数据、FiLM-EfficientNet、TokenLearner、Transformer 与 Action Tokenization，以及它为什么成为后来 VLA 路线的重要起点。"
 tags:
   - Robotics

@@ -1,6 +1,8 @@
 ---
 title: "GaussianDWM 精读：用 3D Gaussian 统一驾驶场景理解与生成"
 date: 2026-08-07
+math: true
+diagram: true
 summary: "快速读懂 CVPR 2026 GaussianDWM：如何把语言语义直接嵌入 3D Gaussian，用任务感知采样将稠密三维世界压缩成 LLM 可处理的 World Tokens，并利用高层 World Knowledge 与低层图像条件统一驱动 RGB-D 空间与未来场景生成。"
 categories:
   - World Models

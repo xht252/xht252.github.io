@@ -1,6 +1,8 @@
 ---
 title: "RT-2 精读：从 Vision-Language Model 到 Vision-Language-Action"
 date: 2026-08-07
+math: true
+diagram: true
 summary: "快速读懂 RT-2：如何把机器人动作表示成语言 Token，将 PaLI-X / PaLM-E 从视觉语言模型转化为可以直接闭环控制机器人的 Vision-Language-Action 模型，以及为什么这一步成为后来 VLA 路线的重要起点。"
 tags:
   - Robotics
